@@ -7,7 +7,7 @@
 }
 body{
 font-family: 'Noto Serif', serif;
-
+/*font-family: 'Baloo Bhai 2', cursive;*/
 }
 .heading{
 padding:1rem 2rem;
@@ -16,7 +16,10 @@ font-size:30px;
 font-weight:bold;
 font-family: 'Baloo Bhai 2', cursive;
 }
-
+/*navbar{
+	position:sticky;
+	top:0px;
+}*/
 #navbar{
 	
 	background:violet;
@@ -30,13 +33,16 @@ font-family: 'Baloo Bhai 2', cursive;
 	display:flex;
 	list-style:none;
 	padding:0px 10px;
+/*margin:0px 30px;*/
    justify-content: flex-end;
-
+  
 }
 
 #navbar ul li a{
 	color:white;
     padding:0px 15px;
+	
+	/*border-radius:20px;*/
 	text-decoration:none;
 	font-size:1.8rem;
 	text-align:center;
@@ -44,8 +50,8 @@ font-family: 'Baloo Bhai 2', cursive;
 }
 
 
-.container img{
-max-width:25rem ;        
+.image{
+max-width:25rem ;       /* img is taken from undraw */      
 display:block;
 margin:auto;
 
@@ -62,7 +68,7 @@ color:blue;
 }
 
 .aboutme{
-background:#F4F7F1;                      
+background:#F4F7F1;                      /*color used https://tailwindcss.com/docs/customizing-colors */
 padding:15px;
 }
 #aboutme{
@@ -89,6 +95,7 @@ text-align:center;
 font-size:25px;
 }
 .para{
+/*text-align:center;*/
 font-size:15px;
 padding:15px;
 }
@@ -99,13 +106,50 @@ padding:15px;
 	border:2px solid;
 	border-radius:5px;
 	text-decoration:none;
+	/*box-sizing:border-box;*/
 	font-size:1rem;
-	
+	/*text-align:center;*/
+}
+.secondlink{
+	color:black;
+	padding:5px 15px;
+	border:2px solid;
+	border-radius:5px;
+	text-decoration:none;
+	font-size:1rem;
+	margin:0px 3px;
 }
   
 ol{
+    /*text-align:center;
+    list-style-position:inside;*/
     padding:0px 30px;
 }
+/*some list property*/
+/*.ol{
+text-align:center;
+list-style-position:inside;
+font-size:20px;
+}*/
+
+
+ /*.ol{
+  margin: -23px ;
+  text-align: center;
+  list-style-position: outside;
+}
+
+ol{
+   list-style-type: decimal;
+}
+
+ol li{
+   padding-left: 0px ;
+   padding-bottom: 0px ;
+}
+
+*/
+
 
 .project{
 background:#F4F7F1;
